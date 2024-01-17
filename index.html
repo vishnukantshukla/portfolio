@@ -2,55 +2,181 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishnukant Shukla</title>
+  <!-- < Boxicon content> -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- < Boxicon content> -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header class="header">
+    <a href="#" class="logo">VKS | <i class='bx bxs-smile'></i></a>
 
-    <section>
+    <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+
+    </nav>
+  </header>
+  <!-- Home Section design -->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Welcome to My Website</h3>
+      <h1>Vishnukant Shukla</h1>
+      <h3>And I am a <span>Student</span></h3>
+      <p style="text-align:Justify;">I am Vishnukant Shukla, a dedicated and enthusiastic individual currently pursuing my Bachelor of Technology (B.Tech) in the Third Year at GLA University, Mathura. As a passionate student, I am committed to academic excellence and continuous learning.</p>
+      <div class="social-media">
+        <a href="https://github.com/vishnukantshukla"><i class='bx bxl-github', target="_blank"></i></a>
+        <a href="https://www.instagram.com/shanushukla63/"><i class='bx bxl-instagram-alt', target="_blank"></i></a>
+        <a href="https://www.linkedin.com/in/vishnukant-shukla-104b00233/"><i class='bx bxl-linkedin', target="_blank"></i></a>
+        <a href="https://leetcode.com/Vishnukant_shukla/">L</i></a>
+      </div>
+      <a href="Vishnukant_Resume.pdf" class="btn" target="_blank">My Resume</a>
+    </div>
+    <div class="home-img">
+      <img src="vishnukant_shukla.png">
+    </div>
+  </section>
 
 
-        <nav>
-            <img src="./Images/logo.png" alt="logo">
-            <ul>
-                <ls><a href="Home">Home</a></ls>
-                <ls><a href="About">About</a></ls>
-                <ls><a href="Menu">Menu</a></ls>
-                <ls><a href="Product">Product</a></ls>
-                <ls><a href="Review">Review</a></ls>
-                <ls><a href="Blogs">Blog</a></ls>
-            </ul>
-            <div class="logo">
-                <li> <a href=""><i class="fa fa-search" style="font-size: 24px; "></i></a></li>
-                <li> <a href=""><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a></li>
-            </div>
+  <!-- about section discription -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/vishnu_img2.jpg" alt="">
+    </div>
 
-        </nav>
-        <hr>
-        <div class="card">
-            <img src="./Images/about-img.jpeg.jpg" alt="">
-            <div class="content">
-                <h2>Lorem ipsum dolor si</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptatibus vel similique sed sit
-                    possimus quibusdam, sapiente maxime ullam dolorum quo quae sunt dicta reprehenderit corrupti
-                    architecto aspernatur illo voluptatum.
-                    Omnis tenetur tempora velit quis voluptatum exercitationem fuga provident animi natus, ullam ratione
-                    deserunt quas beatae quidem quo laborum nesciunt doloribus ducimus nulla. Quod quasi enim tenetur
-                    corrupti dicta nemo.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, sit, nemo delectus reprehenderit
-                    pariatur earum placeat soluta totam aut libero voluptas nam quae. Libero, ad dolor nulla praesentium
-                    ea nostrum.</p>
-                <button> Learn More </button>
-            </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me!</span></h2>
+      <h3>Vishnukant Shukla</h3>
+      <p style="text-align:Justify;">I am from  Village Nahil Khas Powayan, Shahjahanpur (Uttar Prdesh) and Shahjahanpur is a famous city in Uttar Pradesh . My Hobbies are playing Games, Reading books, Listening Music, Learn About Technology.
+      <br>In my academic journey, I have consistently demonstrated a strong work ethic and a keep interest in Data Structure and Algorithm and Full Stack Development.<br>I am excited about the opportunities that lie ahead and look forward to leveraging my skills and knowledge to make meaningful contributions in the field of Computer Science and Engineering.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- Services Section Design -->
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bx-network-chart'></i>
+        <h3>Data Structure And Algorithm</h3>
+        <p style="text-align:Justify;">I am a highly skilled professional with expertise in extracting meaningful insights from data through advanced analytics. My portfolio showcases a blend of technical proficiency and creative problem-solving, delivering impactful solutions to complex data challenges.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+
+      <div class="services-box">
+        <i class='bx bx-code-alt' ></i>
+        <h3>Web Developer</h3>
+        <p style="text-align:Justify;">I am Proficient in developing web applications utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack, along with expertise in HTML, CSS, and JavaScript. My technical skill set encompasses the end-to-end process of web development, from designing interactive user interfaces to implementing robust backend functionality. </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+
+      <div class="services-box">
+        <i class='bx bx-line-chart'></i>
+        <h3>Software Engineer</h3>
+        <p style="text-align:Justify;">I am a highly skilled professional with expertise in extracting meaningful insights from data through advanced analytics. My portfolio showcases a blend of technical proficiency and creative problem-solving, delivering impactful solutions to complex data challenges.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Portfolio Section Design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/Spotify1345.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Grofer’s Organic Website </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum consectetur dolorum totam?</p>
+          <a href="https://vishnukantshukla.github.io/GLA_WEB_PROJECT_TEST/" target="_blank"><i class='bx bx-link-external'></i></a>
         </div>
+      </div>
 
-    </section>
+      <div class="portfolio-box">
+        <img src="images/Netflix.jpeg" alt="">
+        <div class="portfolio-layer">
+          <h4>Netflix Clone</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus omnis explicabo.</p>
+          <a href="https://vishnukantshukla.github.io/Netflix-clone_1/" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
 
+      <div class="portfolio-box">
+        <img src="CCFD.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Job Website</h4>
+          <p>this Website basically help us in finding the job.</p>
+          <a href="https://vishnukantshukla.github.io/WEB_FINAL_PROJECT_1/" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/Nature.jpeg" alt="">
+        <div class="portfolio-layer">
+          <h4>Nature Website</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, officiis.</p>
+          <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section Design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Us!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+  <!-- Footer Design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Vishnukant Shukla | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-icontop">
+      <a href="#home"><i class='bx bxs-up-arrow-circle'></i></a>
+    </div>
+  </footer>
+
+
+
+  <!-- ------------scroll reveal---------- -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
